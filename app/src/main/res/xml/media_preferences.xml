@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="Song Order Preferences">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/mp_shuffle_pref"
+            android:summary="Play songs in random order"
+            android:title="Shuffle"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/mp_loop_pref"
+            android:summary="Loop through playlist"
+            android:title="Loop"/>
+
+        <EditTextPreference
+            android:defaultValue="Playlist"
+            android:key="@string/mp_name_pref"
+            android:summary="Name your playlist"
+            android:title="Playlist Name"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

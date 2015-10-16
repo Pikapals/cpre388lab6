@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMediaPlayer</string>
+    <string name="preferences">Preferences</string>
+    <string name="choose_song">Choose a Song</string>
+    <string name="mp_shuffle_pref">mp_shuffle_preference</string>
+    <string name="mp_loop_pref">mp_loop_preference</string>
+    <string name="mp_name_pref">mp_name_preference</string>
+    <string name="title_activity_media_preferences">MediaPreferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
